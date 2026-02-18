@@ -1,0 +1,7 @@
+<div class="container">
+    <h1 [textContent]="appTitle"></h1>
+    <img [src]="userImageUrl" alt="User Image" width="150">
+    <p [class.highlighted]="isHighlighted">
+        Today is {{currentDate | date:'fullDate'}}
+    </p>
+</div>
